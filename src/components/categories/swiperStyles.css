@@ -1,0 +1,25 @@
+.swiper-button-next,
+.swiper-button-prev {
+  z-index: 9;
+  color: rgb(239 68 68 / var(--tw-bg-opacity));
+  background-color: white;
+  border: 1px rgb(239 68 68 / var(--tw-bg-opacity)) solid;
+  border-radius: 100%;
+  background-position: center !important;
+  background-size: cover;
+  width: 28px;
+  height: 28px;
+  opacity: 0.7;
+  background-image: url("../../assets/swiper/arrow-left-s-line.svg");
+}
+.swiper-button-next {
+  background-image: url("../../assets/swiper/arrow-right-s-line.svg") !important;
+}
+
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-button-prev::after {
+  display: none;
+}
